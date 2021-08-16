@@ -317,7 +317,7 @@ var cnExcludePostfix = [
 //换行加空格：\n(.+)
 var cnRegReplace = new Map([
     [/^(\d+) ascension points$/, '$1 飞升点'],
-    [/^(\d+) quarks$/, '$1 夸克']
+    [/^(\d+) quarks$/, '$1 夸克'],
     [/^You have (.+) points$/, '你有 $1 点数'],
     [/^Next at (.+) points$/, '下一个在 $1 点数'],
 	[/^([\d\.]+)\/sec$/, '$1\/秒'],
